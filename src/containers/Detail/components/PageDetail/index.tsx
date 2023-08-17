@@ -39,7 +39,7 @@ type Props = {
 
 const PageDetail: React.FC<Props> = ({ blockMap, data }) => {
   return (
-    <div className="m-auto max-w-4xl">
+    <div className="m-auto max-w-6xl">
       <NotionRenderer
         recordMap={blockMap}
         components={{
